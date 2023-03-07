@@ -1,18 +1,26 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# VuePress files
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
 
-# Other files and folders
-.settings/
+# Dist files
+dist/
+lib/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Test temp files
+**/__fixtures__/.temp/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Test coverage files
+coverage/
+
+# Node modules
+node_modules/
+
+# MacOS Desktop Services Store
+.DS_Store
+
+# Log files
+*.log
+
+# Typescript build info
+*.tsbuildinfo
